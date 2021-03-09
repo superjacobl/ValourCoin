@@ -2,7 +2,7 @@ import requests, hashlib
 from urllib.request import Request, urlopen
 import json
 import os
-import time, fastrand
+import time
 import BasicPoolMiningAPI
 from dotenv import load_dotenv
 
