@@ -1,6 +1,7 @@
 import requests, hashlib
 from urllib.request import Request, urlopen
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
