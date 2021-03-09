@@ -15,7 +15,7 @@ global TotalShares
 TotalTimeForMining = 0
 TotalShares = 0
 
-PoolURL = os.get("PoolURL")
+PoolURL = os.getenv("PoolURL")
 
 def get_html(link):
   try:

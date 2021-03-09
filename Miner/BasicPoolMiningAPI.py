@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-PoolURL = os.get("PoolURL")
+PoolURL = os.getenv("PoolURL")
 
 
 def get_html(link):
